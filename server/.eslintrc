@@ -7,6 +7,10 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
-  ]
+    "plugin:@typescript-eslint/recommended",
+    "plugin:eslint-plugin-unicorn/recommended"
+  ],
+  "rules": {
+    "no-console": "error"
+  }
 }
