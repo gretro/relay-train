@@ -1,0 +1,33 @@
+{
+  "name": "relay-train",
+  "version": "0.1.0",
+  "description": "Relay train is a Websocket server that acts as a relay between different clients. It can be used as a fallback for WebRTC.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretro/relay-train.git"
+  },
+  "keywords": [
+    "Websocket",
+    "WebRTC",
+    "socket.io",
+    "relay"
+  ],
+  "author": "Gabriel Lemire",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gretro/relay-train/issues"
+  },
+  "homepage": "https://github.com/gretro/relay-train#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
