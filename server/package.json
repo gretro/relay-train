@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
-    "start": "node dist/index.js",
+    "start": "tsnd --respawn --rs src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier -w --config .prettierrc src/**"
   },
@@ -29,9 +29,11 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
+    "concurrently": "^6.2.0",
     "eslint": "^7.31.0",
     "eslint-plugin-unicorn": "^34.0.1",
     "prettier": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.3.5"
   },
   "engines": {
